@@ -5,9 +5,9 @@ int main()
 {
     int a[3][4], b[3][4],
         c[3][4] = {
-            {5, 6, 7, 8},
-            {15, 16, 17, 18},
-            {25, 26, 27, 28},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
+            {0, 0, 0, 0},
         };
     int d[3][4] = {
         {1, 2, 3, 4},
@@ -47,6 +47,7 @@ int main()
     }
 
     // For showing the output
+    cout << "Sum of A and B Matrix :" << endl;
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 4; j++)
@@ -57,6 +58,7 @@ int main()
         cout << endl;
     }
     cout << endl;
+    cout << "Multiplication of matrix C & D :" << endl;
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 4; j++)
